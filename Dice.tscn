@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://8n1lst5qx7de"]
+
+[ext_resource type="Script" uid="uid://cwynwwatxx5k6" path="res://Dice.gd" id="1_ju2fo"]
+[ext_resource type="Shader" uid="uid://cucggstjr5bp0" path="res://dice.gdshader" id="2_m4jp2"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_m4jp2"]
+bounce = 0.3
+
+[sub_resource type="BoxMesh" id="BoxMesh_qu4n6"]
+size = Vector3(0.5, 0.5, 0.5)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_qu4n6"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_xak8u"]
+noise = SubResource("FastNoiseLite_qu4n6")
+seamless = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xak8u"]
+render_priority = 0
+shader = ExtResource("2_m4jp2")
+shader_parameter/base_color = Color(0.95468724, 0.95468724, 0.95468724, 1)
+shader_parameter/dissolve_amount = 0.0
+shader_parameter/noise_texture = SubResource("NoiseTexture2D_xak8u")
+shader_parameter/glow_color = Color(1, 0.4, 0, 1)
+shader_parameter/glow_intensity = 5.0
+shader_parameter/glow_border_width = 0.08
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8eu0n"]
+size = Vector3(0.5, 0.5, 0.5)
+
+[node name="Dice" type="RigidBody3D" unique_id=1226172811]
+physics_material_override = SubResource("PhysicsMaterial_m4jp2")
+script = ExtResource("1_ju2fo")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=563931569]
+mesh = SubResource("BoxMesh_qu4n6")
+surface_material_override/0 = SubResource("ShaderMaterial_xak8u")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1887805492]
+shape = SubResource("BoxShape3D_8eu0n")
+
+[node name="Face1" type="Marker3D" parent="." unique_id=1664783549 groups=["dice_faces"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+metadata/value = 1
+
+[node name="Face2" type="Marker3D" parent="." unique_id=1373722753 groups=["dice_faces"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.25)
+metadata/value = 2
+
+[node name="Face3" type="Marker3D" parent="." unique_id=1920898339 groups=["dice_faces"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25, 0, 0)
+metadata/value = 3
+
+[node name="Face4" type="Marker3D" parent="." unique_id=2036781537 groups=["dice_faces"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.25, 0, 0)
+metadata/value = 4
+
+[node name="Face5" type="Marker3D" parent="." unique_id=791271816 groups=["dice_faces"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.25)
+metadata/value = 5
+
+[node name="Face6" type="Marker3D" parent="." unique_id=1971134381 groups=["dice_faces"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
+metadata/value = 6

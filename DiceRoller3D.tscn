@@ -1,0 +1,103 @@
+[gd_scene format=3 uid="uid://dx1xlfyqsc5s4"]
+
+[ext_resource type="Script" uid="uid://bc0uoyjjemmw7" path="res://DiceRoller3D.gd" id="1_yyot5"]
+
+[sub_resource type="Environment" id="Environment_yyot5"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_vk1jx"]
+size = Vector2(20, 20)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ojrbj"]
+size = Vector3(20, 0.01, 20)
+
+[sub_resource type="LabelSettings" id="LabelSettings_t76t0"]
+line_spacing = 1.0
+font_size = 72
+outline_size = 20
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 0
+
+[node name="DiceRoller3D" type="Control" unique_id=599203886]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yyot5")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=918808860]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.70000005)
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=722883945]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer" unique_id=2104620189]
+handle_input_locally = false
+size = Vector2i(1152, 648)
+render_target_update_mode = 4
+
+[node name="World" type="Node3D" parent="SubViewportContainer/SubViewport" unique_id=157724896]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="SubViewportContainer/SubViewport/World" unique_id=1051469913]
+environment = SubResource("Environment_yyot5")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewportContainer/SubViewport/World" unique_id=738821598]
+transform = Transform3D(0.70710677, -0.35355335, 0.61237234, 0, 0.8660253, 0.49999997, -0.70710677, -0.35355335, 0.61237234, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SubViewport/World" unique_id=619265799]
+transform = Transform3D(0.70710677, -0.35355338, 0.6123724, 0, 0.8660254, 0.5, -0.70710677, -0.35355338, 0.6123724, 4, 6, 8)
+fov = 60.0
+
+[node name="Floor" type="StaticBody3D" parent="SubViewportContainer/SubViewport/World" unique_id=1607413136]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="SubViewportContainer/SubViewport/World/Floor" unique_id=1602889074]
+mesh = SubResource("PlaneMesh_vk1jx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SubViewportContainer/SubViewport/World/Floor" unique_id=1285803346]
+shape = SubResource("BoxShape3D_ojrbj")
+
+[node name="ResultLabel" type="Label" parent="." unique_id=1910106994]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -227.5
+offset_top = -49.5
+offset_right = 227.5
+offset_bottom = 49.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "result text here"
+label_settings = SubResource("LabelSettings_t76t0")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="." unique_id=793134127]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = 76.0
+offset_right = 20.0
+offset_bottom = 122.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "description text here"
