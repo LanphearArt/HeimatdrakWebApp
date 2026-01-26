@@ -262,7 +262,7 @@ func _ready():
 	point_buy_button.pressed.connect(_on_point_buy_reset_pressed)
 	race_option.item_selected.connect(_on_race_selected)
 	origin_option.item_selected.connect(_on_origin_selected)
-	
+
 	if edit_toggle_button == null:
 		push_warning("EditToggleButton missing! Creating fallback button.")
 		edit_toggle_button = Button.new()

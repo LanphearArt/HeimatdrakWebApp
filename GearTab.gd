@@ -239,21 +239,20 @@ func get_save_data() -> Dictionary:
 		"inventory": inv_data
 	}
 
-func load_data(data: Dictionary):
+func load_data(data: Dictionary) -> void:
 	# Equipped
 	_select_option(main_hand_option, data.get("main_hand", "None"))
 	_select_option(off_hand_option, data.get("off_hand", "None"))
 	_select_option(armor_option, data.get("armor", "None"))
-
 	_on_main_hand_changed(main_hand_option.selected)
 	_on_off_hand_changed(off_hand_option.selected)
 	_on_armor_changed(armor_option.selected)
 	_update_equipped_weight()
-
-	# Inventory
+	
+	# Inventory - clear existing
 	for child in inventory_container.get_children():
 		child.queue_free()
-
+	
 	var inv_data = data.get("inventory", [])
 	for item in inv_data:
 		add_inventory_row(item.get("qty", 1), item.get("name", ""), item.get("weight", 0.0))

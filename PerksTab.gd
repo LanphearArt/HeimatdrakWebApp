@@ -20,7 +20,7 @@ extends VBoxContainer
 
 var current_race: String = ""
 var current_origin: String = ""
-var selected_perks: Array[String] = []
+var selected_perks: Array = []
 
 func _ready():
 	# Safety: hide sections if nodes missing
@@ -93,6 +93,7 @@ func _populate_general_dropdown():
 		for perk_name in Data.GENERAL_PERKS.keys():
 			if not selected_perks.has(perk_name):
 				general_perks_dropdown.add_item(perk_name)
+				
 
 func _on_add_general_perk():
 	if general_perks_dropdown and general_perks_dropdown.selected != -1:

@@ -6,14 +6,14 @@
 [ext_resource type="Script" uid="uid://dkus084ww6684" path="res://GearTab.gd" id="4_5vw27"]
 [ext_resource type="Script" uid="uid://bwf4p52724whq" path="res://PerksTab.gd" id="5_kek77"]
 
-[node name="Main" type="Control" unique_id=537916748]
+[node name="Main" type="Control" unique_id=451888090]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_lquwl")
 
-[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1511229555]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=609288223]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
@@ -22,93 +22,93 @@ theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="MainVBox" type="VBoxContainer" parent="MarginContainer" unique_id=859536413]
+[node name="MainVBox" type="VBoxContainer" parent="MarginContainer" unique_id=1897612557]
 layout_mode = 2
 size_flags_horizontal = 4
 
-[node name="TabContainer" type="TabContainer" parent="MarginContainer/MainVBox" unique_id=1153463682]
+[node name="TabContainer" type="TabContainer" parent="MarginContainer/MainVBox" unique_id=1992190633]
 layout_mode = 2
 size_flags_vertical = 3
 current_tab = 0
 
-[node name="Main" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=1110016760]
+[node name="Main" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=1644689383]
 layout_mode = 2
 script = ExtResource("2_7mycd")
 metadata/_tab_index = 0
 
-[node name="HeaderPanel" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=1484474214]
+[node name="HeaderPanel" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=1883200694]
 layout_mode = 2
 
-[node name="HeaderGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel" unique_id=908747886]
+[node name="HeaderGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel" unique_id=153231956]
 layout_mode = 2
 columns = 6
 
-[node name="CharacterNameLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1888522268]
+[node name="CharacterNameLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1311680407]
 layout_mode = 2
 text = "Name:"
 horizontal_alignment = 2
 
-[node name="Name" type="LineEdit" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=266346593]
+[node name="Name" type="LineEdit" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=515358852]
 layout_mode = 2
 placeholder_text = "John Constantly"
 expand_to_text_length = true
 
-[node name="RaceLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1689218575]
+[node name="RaceLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=376830276]
 layout_mode = 2
 size_flags_horizontal = 8
 text = "Race|"
 horizontal_alignment = 2
 
-[node name="Race" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=21719461]
+[node name="Race" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=397423055]
 layout_mode = 2
 
-[node name="RaceDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1475785457]
+[node name="RaceDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1061290774]
 visible = false
 layout_mode = 2
 size_flags_horizontal = 8
 
-[node name="OriginLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=205379675]
+[node name="OriginLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1220977955]
 layout_mode = 2
 text = "     Origin|"
 horizontal_alignment = 2
 
-[node name="Origin" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=525848012]
+[node name="Origin" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1317231894]
 layout_mode = 2
 
-[node name="OriginDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=405095273]
+[node name="OriginDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1222394057]
 visible = false
 layout_mode = 2
 
-[node name="Arche1Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1961128402]
+[node name="Arche1Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=113764803]
 layout_mode = 2
 text = "Archetype 1|"
 horizontal_alignment = 2
 
-[node name="Arche1" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=225072358]
+[node name="Arche1" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=722392490]
 layout_mode = 2
 
-[node name="Arche1Display" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1729699383]
+[node name="Arche1Display" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1242349136]
 visible = false
 layout_mode = 2
 
-[node name="Arche2Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1613350024]
+[node name="Arche2Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1656252309]
 layout_mode = 2
 text = "     Archetype 2|"
 horizontal_alignment = 2
 
-[node name="Arche2" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1369428559]
+[node name="Arche2" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1551709844]
 layout_mode = 2
 
-[node name="Arche2Display" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=830534520]
+[node name="Arche2Display" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=675742060]
 visible = false
 layout_mode = 2
 
-[node name="RankLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=952263148]
+[node name="RankLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1861735292]
 layout_mode = 2
 text = "     Rank|"
 horizontal_alignment = 2
 
-[node name="Rank" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1502055562]
+[node name="Rank" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1434378508]
 layout_mode = 2
 size_flags_horizontal = 0
 item_count = 10
@@ -133,982 +133,950 @@ popup/item_8/id = 9
 popup/item_9/text = "10"
 popup/item_9/id = 10
 
-[node name="RankDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=1233195277]
+[node name="RankDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/HeaderPanel/HeaderGrid" unique_id=234763724]
 visible = false
 layout_mode = 2
 
-[node name="AttributesSkillsPanel" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=800584859]
+[node name="AttributesSkillsPanel" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=1633182724]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel" unique_id=588753916]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel" unique_id=1360340816]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer" unique_id=956255010]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer" unique_id=1316154343]
 layout_mode = 2
 
-[node name="AttrGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer" unique_id=1912020727]
+[node name="AttrGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer" unique_id=1788233438]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 columns = 5
 
-[node name="Attribute" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1613665789]
+[node name="Attribute" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=656281782]
 layout_mode = 2
 text = "Attribute"
 horizontal_alignment = 1
 
-[node name="BaseScore" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=953446921]
+[node name="BaseScore" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=579260639]
 layout_mode = 2
 text = "Base     "
 horizontal_alignment = 1
 
-[node name="Racial" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=385764877]
+[node name="Racial" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=811665621]
 layout_mode = 2
 text = "Race/Origin"
 horizontal_alignment = 1
 
-[node name="Final" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1265422586]
+[node name="Final" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=514254619]
 layout_mode = 2
 text = "Final"
 horizontal_alignment = 1
 
-[node name="Modifier" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=2020184244]
+[node name="Modifier" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1039303054]
 layout_mode = 2
 text = "Mod"
 horizontal_alignment = 1
 
-[node name="AgiLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=151184391]
+[node name="AgiLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1828476575]
 layout_mode = 2
 text = "Agi"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="AgiDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1669339723]
+[node name="AgiDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=74002433]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="AgiScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1769810909]
+[node name="AgiScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=142256951]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="AgiRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=995343945]
+[node name="AgiRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=979143730]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="AgiFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=2033436560]
+[node name="AgiFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=354833239]
 layout_mode = 2
 text = "0"
 horizontal_alignment = 1
 
-[node name="AgiMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=511377772]
+[node name="AgiMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=2105658350]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="AppLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1692416255]
+[node name="AppLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=852877113]
 layout_mode = 2
 text = "App"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="AppDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1077373154]
+[node name="AppDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1497633135]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="AppScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1561015156]
+[node name="AppScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=846784415]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="AppRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=899867817]
+[node name="AppRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=843695881]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="AppFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1964801965]
+[node name="AppFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=938409035]
 layout_mode = 2
 text = "0"
 horizontal_alignment = 1
 
-[node name="AppMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=569979323]
+[node name="AppMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1507142705]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="BrawnLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1258024146]
+[node name="BrawnLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1602031506]
 layout_mode = 2
 text = "Brawn"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="BrawnDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=636473004]
+[node name="BrawnDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=235446325]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="BrawnScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1212779679]
+[node name="BrawnScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=577417227]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="BrawnRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=268982849]
+[node name="BrawnRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=2124817483]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="BrawnFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1566799197]
+[node name="BrawnFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1798546466]
 layout_mode = 2
 text = "0"
 horizontal_alignment = 1
 
-[node name="BrawnMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1964509206]
+[node name="BrawnMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1748974971]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="ConLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=183426950]
+[node name="ConLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=755055334]
 layout_mode = 2
 text = "Con"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="ConDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=597411150]
+[node name="ConDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1130879627]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="ConScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1198058498]
+[node name="ConScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1724050408]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="ConRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=322593984]
+[node name="ConRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=139346818]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="ConFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1697909937]
+[node name="ConFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=911592478]
 layout_mode = 2
 text = "0"
 horizontal_alignment = 1
 
-[node name="ConMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=466255535]
+[node name="ConMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=325686813]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="IntLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1283655486]
+[node name="IntLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1775102868]
 layout_mode = 2
 text = "Int"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="IntDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=442858284]
+[node name="IntDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1096529981]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="IntScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=511376346]
+[node name="IntScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1969320112]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="IntRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1671931203]
+[node name="IntRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1854826868]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="IntFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1092294878]
+[node name="IntFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=56468033]
 layout_mode = 2
 text = "0"
 horizontal_alignment = 1
 
-[node name="IntMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1592621801]
+[node name="IntMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=45999759]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="MemLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=802270672]
+[node name="MemLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1058047763]
 layout_mode = 2
 text = "Mem"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="MemDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=397544258]
+[node name="MemDisplay" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=2130344339]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="MemScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=817646897]
+[node name="MemScore" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1202690581]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="MemRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1683636540]
+[node name="MemRO" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=1920029231]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="MemFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=313498779]
+[node name="MemFinal" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=666698207]
 layout_mode = 2
 text = "0"
 horizontal_alignment = 1
 
-[node name="MemMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=131126296]
+[node name="MemMod" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/AttrGrid" unique_id=98218319]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer" unique_id=1003225696]
+[node name="Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer" unique_id=370759753]
 layout_mode = 2
 size_flags_horizontal = 5
 text = "Career Bonus"
 horizontal_alignment = 1
 
-[node name="CareerGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer" unique_id=379934745]
+[node name="CareerGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer" unique_id=477986396]
 layout_mode = 2
 size_flags_horizontal = 5
 columns = 4
 
-[node name="CrafterLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=180599884]
+[node name="CrafterLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=141371076]
 layout_mode = 2
 text = "Crafter "
 
-[node name="Crafter" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=659668509]
+[node name="Crafter" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=961728641]
 layout_mode = 2
 text = "+/- 0"
 
-[node name="MartialLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=224393302]
+[node name="MartialLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=233569444]
 layout_mode = 2
 text = "Martial "
 
-[node name="Martial" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=851753071]
+[node name="Martial" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=406187448]
 layout_mode = 2
 text = "+/- 0"
 
-[node name="MentalLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=18785615]
+[node name="MentalLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=1300132686]
 layout_mode = 2
 text = "Mental "
 
-[node name="Mental" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=440887160]
+[node name="Mental" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=628033055]
 layout_mode = 2
 text = "+/- 0"
 
-[node name="OccultLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=443917142]
+[node name="OccultLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=293801154]
 layout_mode = 2
 text = "Occult "
 
-[node name="Occult" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=1100874806]
+[node name="Occult" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=215506486]
 layout_mode = 2
 text = "+/- 0"
 
-[node name="PhysicalLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=1407982398]
+[node name="PhysicalLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=1752478577]
 layout_mode = 2
 text = "Physical"
 
-[node name="Physical" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=1104678342]
+[node name="Physical" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/VBoxContainer/CareerGrid" unique_id=1170735248]
 layout_mode = 2
 text = "+/- 0"
 
-[node name="Skills" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer" unique_id=928235509]
+[node name="Skills" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer" unique_id=1225963703]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills" unique_id=364232230]
+[node name="Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills" unique_id=302408121]
 layout_mode = 2
 text = "Skills"
 horizontal_alignment = 1
 
-[node name="SkillScroll" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills" unique_id=1490365269]
+[node name="SkillScroll" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills" unique_id=1220623722]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="SkillsVBox" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll" unique_id=469639255]
+[node name="SkillsVBox" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll" unique_id=737194516]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Arcana" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=567768758]
+[node name="Arcana" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1078480187]
 layout_mode = 2
 columns = 3
 
-[node name="ArcanaCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Arcana" unique_id=1877522437]
+[node name="ArcanaCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Arcana" unique_id=1227848898]
 layout_mode = 2
 
-[node name="ArcanaValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Arcana" unique_id=1923828292]
+[node name="ArcanaValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Arcana" unique_id=309322621]
 layout_mode = 2
 text = "+/-0"
 
-[node name="ArcanaLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Arcana" unique_id=2056330106]
+[node name="ArcanaLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Arcana" unique_id=1986080487]
 layout_mode = 2
 text = "Arcana "
 
-[node name="Athletics" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1388852573]
+[node name="Athletics" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1787692678]
 layout_mode = 2
 columns = 4
 
-[node name="AthleticsCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=1334943352]
+[node name="AthleticsCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=1176273338]
 layout_mode = 2
 
-[node name="AthleticsValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=96849899]
+[node name="AthleticsValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=120474929]
 layout_mode = 2
 text = "+/-0"
 
-[node name="AthleticsLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=1535862380]
+[node name="AthleticsLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=1958669297]
 layout_mode = 2
 text = "Athletics "
 
-[node name="AthleticsAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=608262024]
+[node name="AthleticsAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Athletics" unique_id=1815773292]
 layout_mode = 2
 
-[node name="Awareness" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1511546624]
+[node name="Awareness" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=7195846]
 layout_mode = 2
 columns = 3
 
-[node name="AwarenessCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Awareness" unique_id=975939851]
+[node name="AwarenessCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Awareness" unique_id=1021279475]
 layout_mode = 2
 
-[node name="AwarenessValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Awareness" unique_id=175565183]
+[node name="AwarenessValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Awareness" unique_id=959089600]
 layout_mode = 2
 text = "+/-0"
 
-[node name="AwarenessLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Awareness" unique_id=1037926663]
+[node name="AwarenessLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Awareness" unique_id=1349226847]
 layout_mode = 2
 text = "Awareness "
 
-[node name="Craft" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=314547268]
+[node name="Craft" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=40228154]
 layout_mode = 2
 columns = 4
 
-[node name="CraftCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=1975825387]
+[node name="CraftCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=1433650926]
 layout_mode = 2
 
-[node name="CraftValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=732604172]
+[node name="CraftValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=1459133558]
 layout_mode = 2
 text = "+/-0"
 
-[node name="CraftLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=884671036]
+[node name="CraftLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=874099574]
 layout_mode = 2
 text = "Craft"
 
-[node name="CraftAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=181119769]
+[node name="CraftAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Craft" unique_id=21689190]
 layout_mode = 2
 
-[node name="Deception" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1467940713]
+[node name="Deception" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1695616199]
 layout_mode = 2
 columns = 3
 
-[node name="DeceptionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Deception" unique_id=41291972]
+[node name="DeceptionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Deception" unique_id=1973652643]
 layout_mode = 2
 
-[node name="DeceptionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Deception" unique_id=656284988]
+[node name="DeceptionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Deception" unique_id=330598832]
 layout_mode = 2
 text = "+/-0"
 
-[node name="DeceptionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Deception" unique_id=753604153]
+[node name="DeceptionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Deception" unique_id=1207975534]
 layout_mode = 2
 text = "Deception "
 
-[node name="History" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1858096449]
+[node name="History" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=393427566]
 layout_mode = 2
 columns = 3
 
-[node name="HistoryCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/History" unique_id=322862826]
+[node name="HistoryCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/History" unique_id=2099718873]
 layout_mode = 2
 
-[node name="HistoryValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/History" unique_id=980969297]
+[node name="HistoryValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/History" unique_id=1286572236]
 layout_mode = 2
 text = "+/-0"
 
-[node name="HistoryLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/History" unique_id=1427116826]
+[node name="HistoryLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/History" unique_id=1871663351]
 layout_mode = 2
 text = "History "
 
-[node name="Inspection" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1378386275]
+[node name="Inspection" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1554280044]
 layout_mode = 2
 columns = 4
 
-[node name="InspectionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=872300617]
+[node name="InspectionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=1718613958]
 layout_mode = 2
 
-[node name="InspectionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=1694642822]
+[node name="InspectionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=1692919173]
 layout_mode = 2
 text = "+/-0"
 
-[node name="InspectionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=1699253421]
+[node name="InspectionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=167279768]
 layout_mode = 2
 text = "Inspection"
 
-[node name="InspectionAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=181868869]
+[node name="InspectionAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Inspection" unique_id=991343251]
 layout_mode = 2
 
-[node name="Occult" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1099674141]
+[node name="Occult" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=445999975]
 layout_mode = 2
 columns = 3
 
-[node name="OccultCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Occult" unique_id=2068748267]
+[node name="OccultCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Occult" unique_id=736064173]
 layout_mode = 2
 
-[node name="OccultValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Occult" unique_id=1513620660]
+[node name="OccultValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Occult" unique_id=38744304]
 layout_mode = 2
 text = "+/-0"
 
-[node name="OccultLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Occult" unique_id=1559096417]
+[node name="OccultLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Occult" unique_id=883477462]
 layout_mode = 2
 text = "Occult"
 
-[node name="Persuasion" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=846329883]
+[node name="Persuasion" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=721226352]
 layout_mode = 2
 columns = 4
 
-[node name="PersuasionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=950262179]
+[node name="PersuasionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=1577228378]
 layout_mode = 2
 
-[node name="PersuasionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=1235134296]
+[node name="PersuasionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=1621461812]
 layout_mode = 2
 text = "+/-0"
 
-[node name="PersuasionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=1672858243]
+[node name="PersuasionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=407347339]
 layout_mode = 2
 text = "Persuasion "
 
-[node name="PersuasionAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=1328247999]
+[node name="PersuasionAttrChoice" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Persuasion" unique_id=1030574798]
 layout_mode = 2
 
-[node name="Religion" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=471255221]
+[node name="Religion" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=78748490]
 layout_mode = 2
 columns = 3
 
-[node name="ReligionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Religion" unique_id=440151359]
+[node name="ReligionCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Religion" unique_id=1570937217]
 layout_mode = 2
 
-[node name="ReligionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Religion" unique_id=1638161877]
+[node name="ReligionValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Religion" unique_id=1407316057]
 layout_mode = 2
 text = "+/-0"
 
-[node name="ReligionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Religion" unique_id=1116953224]
+[node name="ReligionLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Religion" unique_id=184690075]
 layout_mode = 2
 text = "Religion "
 
-[node name="Resilience" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=506348500]
+[node name="Resilience" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1735034281]
 layout_mode = 2
 columns = 3
 
-[node name="ResilienceCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Resilience" unique_id=297641600]
+[node name="ResilienceCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Resilience" unique_id=1194714949]
 layout_mode = 2
 
-[node name="ResilienceValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Resilience" unique_id=2139087308]
+[node name="ResilienceValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Resilience" unique_id=1578711972]
 layout_mode = 2
 text = "+/-0"
 
-[node name="ResilienceLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Resilience" unique_id=712067099]
+[node name="ResilienceLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Resilience" unique_id=752927032]
 layout_mode = 2
 text = "Resiliience "
 
-[node name="Skullduggery" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=89008091]
+[node name="Skullduggery" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox" unique_id=1495905823]
 layout_mode = 2
 columns = 3
 
-[node name="SkullduggeryCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Skullduggery" unique_id=2080546648]
+[node name="SkullduggeryCheck" type="CheckBox" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Skullduggery" unique_id=1303932699]
 layout_mode = 2
 
-[node name="SkullduggeryValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Skullduggery" unique_id=1407201345]
+[node name="SkullduggeryValue" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Skullduggery" unique_id=1203963862]
 layout_mode = 2
 text = "+/-0"
 
-[node name="SkullduggeryLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Skullduggery" unique_id=316691283]
+[node name="SkullduggeryLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/AttributesSkillsPanel/HBoxContainer/Skills/SkillScroll/SkillsVBox/Skullduggery" unique_id=1287417948]
 layout_mode = 2
 text = "Skullduggery "
 
-[node name="DerivedStatsPanel" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=117867518]
+[node name="DerivedStatsPanel" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=1739896970]
 layout_direction = 2
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel" unique_id=415891839]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel" unique_id=664708537]
 layout_mode = 2
 
-[node name="DerivedGrid1" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer" unique_id=481699822]
+[node name="DerivedGrid1" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer" unique_id=1410351386]
 layout_mode = 2
 columns = 4
 
-[node name="HealthLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=445415260]
+[node name="HealthLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=1962856449]
 layout_mode = 2
 text = "Health Pool"
 
-[node name="CurrentHealthBox" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=1487785049]
+[node name="CurrentHealthBox" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=87511476]
 layout_mode = 2
 alignment = 2
 
-[node name="HealthDivider" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=933398047]
+[node name="HealthDivider" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=972778921]
 layout_mode = 2
 text = "/"
 
-[node name="MaxHealth" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=1097109081]
+[node name="MaxHealth" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=1526366770]
 layout_mode = 2
 text = "00"
 
-[node name="StaminaLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=346316544]
+[node name="StaminaLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=341711304]
 layout_mode = 2
 text = "Stamina Pool"
 
-[node name="CurrentStaminaBox" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=716157031]
+[node name="CurrentStaminaBox" type="SpinBox" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=287829763]
 layout_mode = 2
 alignment = 2
 
-[node name="StaminaDivider" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=913059485]
+[node name="StaminaDivider" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=308567967]
 layout_mode = 2
 text = "/"
 
-[node name="MaxStamina" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=405108006]
+[node name="MaxStamina" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=1044546177]
 layout_mode = 2
 text = "00"
 
-[node name="RecoveryRateLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=2004872691]
+[node name="RecoveryRateLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=910238442]
 layout_mode = 2
 text = "Recovery Rate "
 
-[node name="RecoveryRate" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=641690689]
+[node name="RecoveryRate" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid1" unique_id=1700282586]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="DerivedGrid2" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer" unique_id=674874318]
+[node name="DerivedGrid2" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer" unique_id=1243118605]
 layout_mode = 2
 size_flags_horizontal = 2
 columns = 4
 
-[node name="ARLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1699687200]
+[node name="ARLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1026544282]
 layout_mode = 2
 text = "AR "
 
-[node name="AR" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=338809377]
+[node name="AR" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=569263358]
 layout_mode = 2
 text = "+/-0"
 horizontal_alignment = 1
 
-[node name="InitiativeLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=395280907]
+[node name="InitiativeLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=932461673]
 layout_mode = 2
 text = "Init "
 
-[node name="Initiative" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=492633189]
+[node name="Initiative" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=747942655]
 layout_mode = 2
 text = "+/- 0"
 
-[node name="MCALabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1147013724]
+[node name="MCALabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=269153807]
 layout_mode = 2
 text = "MCA "
 
-[node name="MCA" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=2119400120]
+[node name="MCA" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=702129224]
 layout_mode = 2
 text = "+/-0"
 
-[node name="MCBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=2036258630]
+[node name="MCBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1945967367]
 layout_mode = 2
 text = "MCB "
 
-[node name="MCB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1266105702]
+[node name="MCB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1936588306]
 layout_mode = 2
 text = "+/-0"
 
-[node name="RCALabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=916459819]
+[node name="RCALabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=266397838]
 layout_mode = 2
 text = "RCA "
 
-[node name="RCA" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=297864287]
+[node name="RCA" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1948381168]
 layout_mode = 2
 text = "+/-0"
 
-[node name="BCBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=444146208]
+[node name="BCBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1691243242]
 layout_mode = 2
 text = "BCB "
 
-[node name="BCB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=351577491]
+[node name="BCB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1146705903]
 layout_mode = 2
 text = "+/-0"
 
-[node name="CDBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=230579657]
+[node name="CDBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1166717453]
 layout_mode = 2
 text = "CDB "
 
-[node name="CDB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=2113512725]
+[node name="CDB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=2087044866]
 layout_mode = 2
 text = "+/-0"
 
-[node name="CBBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1103869617]
+[node name="CBBLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=1818037374]
 layout_mode = 2
 text = "CBB "
 
-[node name="CBB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=603240310]
+[node name="CBB" type="Label" parent="MarginContainer/MainVBox/TabContainer/Main/DerivedStatsPanel/HBoxContainer/DerivedGrid2" unique_id=400579894]
 layout_mode = 2
 text = "+/-0"
 
-[node name="ActionContainer" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=230053861]
+[node name="ActionContainer" type="PanelContainer" parent="MarginContainer/MainVBox/TabContainer/Main" unique_id=650972809]
 layout_mode = 2
 
-[node name="ActionHBox" type="HBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer" unique_id=895211605]
+[node name="ActionHBox" type="HBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer" unique_id=131548567]
 layout_mode = 2
 
-[node name="Roll_Attributes" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=1307270828]
+[node name="Roll_Attributes" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=90083085]
 layout_mode = 2
 text = "Roll Stats"
 
-[node name="PointBuyReset" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=2105008609]
+[node name="PointBuyReset" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=1535490138]
 layout_mode = 2
 text = "Reset Stats"
 
-[node name="SaveSheet" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=23534778]
+[node name="SaveSheet" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=827478400]
 layout_mode = 2
 text = "Save"
 
-[node name="LoadSheet" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=1487327198]
+[node name="LoadSheet" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=797392384]
 layout_mode = 2
 text = "Load"
 
-[node name="EditToggleButton" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=1794722411]
+[node name="EditToggleButton" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=1345025207]
 layout_mode = 2
 tooltip_text = "Toggle edit mode"
 text = "Edit Mode: Off"
 
-[node name="TestRoll" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=1410726887]
+[node name="TestRoll" type="Button" parent="MarginContainer/MainVBox/TabContainer/Main/ActionContainer/ActionHBox" unique_id=1991148162]
 layout_mode = 2
-tooltip_text = "Toggle edit mode"
-text = "test roll
+text = "Test Roll
 "
 
-[node name="Actions" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=1884599706]
+[node name="Actions" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=630022024]
 visible = false
 custom_minimum_size = Vector2(468, 0)
 layout_mode = 2
 script = ExtResource("3_272bh")
 metadata/_tab_index = 1
 
-[node name="ActionsHeader" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Actions" unique_id=1408885502]
+[node name="ActionsHeader" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Actions" unique_id=166705432]
 layout_mode = 2
 
-[node name="MainHandHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=245889979]
+[node name="MainHandHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=2093978433]
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Main Hand: None"
 
-[node name="MainHandGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=1851052005]
+[node name="MainHandGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=708485180]
 custom_minimum_size = Vector2(0, 25)
 layout_mode = 2
 size_flags_vertical = 3
 columns = 2
 
-[node name="Action1Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/MainHandGrid" unique_id=395147415]
+[node name="Action1Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/MainHandGrid" unique_id=218473592]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "-"
 
-[node name="Action2Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/MainHandGrid" unique_id=581070556]
+[node name="Action2Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/MainHandGrid" unique_id=1115713834]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "-"
 
-[node name="OffHandHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=1534634075]
+[node name="OffHandHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=1270015616]
 layout_mode = 2
 theme_override_font_sizes/font_size = 18
 text = "Off Hand: None"
 
-[node name="OffHandGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=548789070]
+[node name="OffHandGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader" unique_id=1048159095]
 custom_minimum_size = Vector2(0, 25)
 layout_mode = 2
 size_flags_vertical = 3
 columns = 2
 
-[node name="Action1Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/OffHandGrid" unique_id=740847360]
+[node name="Action1Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/OffHandGrid" unique_id=1028371202]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "-"
 
-[node name="Action2Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/OffHandGrid" unique_id=368263033]
+[node name="Action2Button" type="Button" parent="MarginContainer/MainVBox/TabContainer/Actions/ActionsHeader/OffHandGrid" unique_id=1375110160]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "-"
 
-[node name="PerksSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Actions" unique_id=379950160]
+[node name="PerksSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Actions" unique_id=2063453811]
 layout_mode = 2
 
-[node name="PerksHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Actions/PerksSection" unique_id=1856215401]
+[node name="PerksHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Actions/PerksSection" unique_id=1891474281]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Perk Actions"
 
-[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/PerksSection" unique_id=271768349]
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/PerksSection" unique_id=30329018]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="PerksContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/PerksSection/ScrollContainer" unique_id=246053043]
+[node name="PerksContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Actions/PerksSection/ScrollContainer" unique_id=1518701299]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="Gear" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=1278447871]
+[node name="Gear" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=1692208325]
 visible = false
 layout_mode = 2
 script = ExtResource("4_5vw27")
 metadata/_tab_index = 2
 
-[node name="EquippedHeader" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=311466034]
+[node name="EquippedHeader" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=2112616843]
 layout_mode = 2
 
-[node name="MainHandOption" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=1174583367]
+[node name="MainHandOption" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=2133896763]
 layout_mode = 2
 tooltip_text = "Select Main Hand"
 
-[node name="MainHandStatsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=230216211]
+[node name="MainHandStatsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=1933765359]
 layout_mode = 2
 columns = 10
 
-[node name="BonusLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=648027683]
+[node name="BonusLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=713811157]
 layout_mode = 2
 text = "Bonus:"
 
-[node name="MainHandBonus" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=681057734]
+[node name="MainHandBonus" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=811579124]
 layout_mode = 2
 text = "+/-0"
 
-[node name="Actions1Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=1274954471]
+[node name="Actions1Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=603821746]
 layout_mode = 2
 text = "Action 1:"
 
-[node name="MainHandAction1" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=394263553]
+[node name="MainHandAction1" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=402874511]
 layout_mode = 2
 text = "action 1"
 
-[node name="Actions2Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=444300694]
+[node name="Actions2Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=1070055326]
 layout_mode = 2
 text = "Action 2:"
 
-[node name="MainHandAction2" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=874574705]
+[node name="MainHandAction2" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=1626865050]
 layout_mode = 2
 text = "action 2"
 
-[node name="RangeLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=1041707758]
+[node name="RangeLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=610104798]
 layout_mode = 2
 text = "Range:"
 
-[node name="MainHandRange" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=1960458591]
+[node name="MainHandRange" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/MainHandStatsGrid" unique_id=2128687955]
 layout_mode = 2
 tooltip_text = "Select Off-Hand"
 mouse_filter = 1
 text = "default"
 
-[node name="OffHandContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=752222660]
+[node name="OffHandContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=544802155]
 layout_mode = 2
 
-[node name="OffHandOption" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer" unique_id=1231444605]
+[node name="OffHandOption" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer" unique_id=1891108725]
 layout_mode = 2
 tooltip_text = "Select Main Hand"
 
-[node name="OffHandStatsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer" unique_id=1356506859]
+[node name="OffHandStatsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer" unique_id=930995427]
 layout_mode = 2
 columns = 10
 
-[node name="BonusLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=166742600]
+[node name="BonusLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=264348203]
 layout_mode = 2
 text = "Bonus:"
 
-[node name="OffHandBonus" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=493058543]
+[node name="OffHandBonus" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=1608893896]
 layout_mode = 2
 text = "+/- 0"
 
-[node name="Actions1Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=940594568]
+[node name="Actions1Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=826284976]
 layout_mode = 2
 text = "Action 1:"
 
-[node name="OffHandAction1" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=1976251628]
+[node name="OffHandAction1" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=1408555018]
 layout_mode = 2
 text = "action 1"
 
-[node name="Actions2Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=1019312965]
+[node name="Actions2Label" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=2082176531]
 layout_mode = 2
 text = "Action 2:"
 
-[node name="OffHandAction2" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=413486334]
+[node name="OffHandAction2" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=243017615]
 layout_mode = 2
 text = "action 2"
 
-[node name="RangeLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=1807898828]
+[node name="RangeLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=964766650]
 layout_mode = 2
 text = "Range:"
 
-[node name="OffHandRange" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=807068295]
+[node name="OffHandRange" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/OffHandContainer/OffHandStatsGrid" unique_id=1666968608]
 layout_mode = 2
 tooltip_text = "Select Off-Hand"
 mouse_filter = 1
 text = "default"
 
-[node name="ArmorOption" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=660196240]
+[node name="ArmorOption" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=2066627019]
 layout_mode = 2
 tooltip_text = "Select Main Hand"
 
-[node name="ArmorStatsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=1986483589]
+[node name="ArmorStatsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader" unique_id=1837507240]
 layout_mode = 2
 columns = 4
 
-[node name="WeightClassLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=86975877]
+[node name="WeightClassLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=1736105507]
 layout_mode = 2
 text = "Weight Class:"
 
-[node name="ArmorWeightClass" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=838620848]
+[node name="ArmorWeightClass" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=445675929]
 layout_mode = 2
 size_flags_horizontal = 2
 
-[node name="ARLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=1514467893]
+[node name="ARLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=1614799077]
 layout_mode = 2
 text = "AR:"
 
-[node name="ArmorAR" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=200812550]
+[node name="ArmorAR" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear/EquippedHeader/ArmorStatsGrid" unique_id=377920871]
 layout_mode = 2
 size_flags_horizontal = 2
 
-[node name="TotalWeightLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=175113111]
+[node name="TotalWeightLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=871778555]
 layout_mode = 2
 horizontal_alignment = 2
 
-[node name="InventoryScroll" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=1327079850]
+[node name="InventoryScroll" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=553796961]
 custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="InventoryContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/InventoryScroll" unique_id=1312049438]
+[node name="InventoryContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Gear/InventoryScroll" unique_id=299167224]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="AddItemButton" type="Button" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=21613241]
+[node name="AddItemButton" type="Button" parent="MarginContainer/MainVBox/TabContainer/Gear" unique_id=1110991597]
 layout_mode = 2
 text = "Add Item"
 
-[node name="Perks" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=146990301]
+[node name="Perks" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer" unique_id=107164165]
 visible = false
 custom_minimum_size = Vector2(468, 554)
 layout_mode = 2
 script = ExtResource("5_kek77")
 metadata/_tab_index = 3
 
-[node name="Header" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=86330688]
+[node name="Header" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=979046221]
 layout_mode = 2
 
-[node name="RacePerkLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=1858223420]
+[node name="RacePerkLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=1125771094]
 layout_mode = 2
 text = "Race"
 
-[node name="RacePerkDropdown" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=409047271]
+[node name="RacePerkDropdown" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=1495506386]
 layout_mode = 2
 
-[node name="OriginPerkLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=1732630583]
+[node name="OriginPerkLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=1505059076]
 layout_mode = 2
 text = "Origin"
 
-[node name="OriginPerkDropdown" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=1509491759]
+[node name="OriginPerkDropdown" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Perks/Header" unique_id=1964889016]
 layout_mode = 2
 
-[node name="GeneralPerksSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=1264627763]
+[node name="GeneralPerksSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=837595713]
 layout_mode = 2
 
-[node name="GeneralPerksLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/GeneralPerksSection" unique_id=2010568099]
+[node name="GeneralPerksLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/GeneralPerksSection" unique_id=747746705]
 layout_mode = 2
 text = "General"
 
-[node name="GeneralPerksDropdown" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Perks/GeneralPerksSection" unique_id=1179879934]
+[node name="GeneralPerksDropdown" type="OptionButton" parent="MarginContainer/MainVBox/TabContainer/Perks/GeneralPerksSection" unique_id=1258936326]
 layout_mode = 2
 
-[node name="AddPerkButton" type="Button" parent="MarginContainer/MainVBox/TabContainer/Perks/GeneralPerksSection" unique_id=269412250]
+[node name="AddPerkButton" type="Button" parent="MarginContainer/MainVBox/TabContainer/Perks/GeneralPerksSection" unique_id=1848690018]
 layout_mode = 2
 text = "Add Perk"
 
-[node name="SelectedPerksSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=1182428436]
+[node name="SelectedPerksSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=309967608]
 layout_mode = 2
 
-[node name="SelectedPerksLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/SelectedPerksSection" unique_id=382816705]
+[node name="SelectedPerksLabel" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/SelectedPerksSection" unique_id=1038832179]
 layout_mode = 2
 text = "Selected Perks"
 
-[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Perks/SelectedPerksSection" unique_id=739028391]
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/MainVBox/TabContainer/Perks/SelectedPerksSection" unique_id=933623934]
 custom_minimum_size = Vector2(468, 400)
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="SelectedPerksContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks/SelectedPerksSection/ScrollContainer" unique_id=89769165]
+[node name="SelectedPerksContainer" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks/SelectedPerksSection/ScrollContainer" unique_id=436026794]
 custom_minimum_size = Vector2(200, 20)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="PerksActionsSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=1562291159]
+[node name="PerksActionsSection" type="VBoxContainer" parent="MarginContainer/MainVBox/TabContainer/Perks" unique_id=1604469432]
 layout_mode = 2
 
-[node name="PerkActionsHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/PerksActionsSection" unique_id=1168923347]
+[node name="PerkActionsHeader" type="Label" parent="MarginContainer/MainVBox/TabContainer/Perks/PerksActionsSection" unique_id=1435116678]
 layout_mode = 2
 text = "Perk Actions"
 
-[node name="PerkActionsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Perks/PerksActionsSection" unique_id=1455651411]
+[node name="PerkActionsGrid" type="GridContainer" parent="MarginContainer/MainVBox/TabContainer/Perks/PerksActionsSection" unique_id=854221616]
 layout_mode = 2
 size_flags_vertical = 3
-
-[node name="RollHistory" type="Panel" parent="." unique_id=1990564189]
-custom_minimum_size = Vector2(300, 600)
-layout_mode = 0
-offset_left = 840.0
-offset_top = 10.0
-offset_right = 1140.0
-offset_bottom = 610.0
-
-[node name="Button" type="Button" parent="RollHistory" unique_id=540134170]
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -52.0
-offset_top = 4.0
-offset_right = -3.0
-offset_bottom = 35.0
-grow_horizontal = 0
-grow_vertical = 0
-text = "Clear"
-
-[node name="ScrollContainer" type="ScrollContainer" parent="RollHistory" unique_id=1438424962]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="HistoryContainer" type="VBoxContainer" parent="RollHistory/ScrollContainer" unique_id=28642607]
-layout_mode = 2

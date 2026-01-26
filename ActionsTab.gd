@@ -115,7 +115,7 @@ func _perform_action(item: String, action_index: int):
 
 func _show_roll_popup(result: Dictionary, item: String, action_index: int):
 	if roll_popup == null:
-		roll_popup = preload("res://DiceRoller3D.tscn").instantiate()
+		roll_popup = preload("res://RollPopup.tscn").instantiate()
 		add_child(roll_popup)
 
 	roll_popup.show_roll(item, action_index, result)
