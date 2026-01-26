@@ -14,15 +14,14 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="heimatdrak web app (4.5)"
+config/name="heimatdrak web app"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Data="*res://Data.gd"
-DiceRoller="*res://DiceRoller.gd"
-Global="*res://Global.gd"
+Data="*uid://br5dv6eckdr0t"
+Global="*uid://cgfp5o8khplhf"
 
 [debug]
 

@@ -38,8 +38,8 @@ func _save_all() -> void:
 	full_data.merge(gear_data)
 	
 	if OS.get_name() == "Web":
-		var json = JSON.new()
-		var json_string = json.stringify(full_data)
+		var _json = JSON.new()
+		var json_string = JSON.stringify(full_data)
 		JavaScriptBridge.eval("localStorage.setItem('heimatdrak_sheet', '%s');" % json_string)
 		print("Full sheet saved to browser storage!")
 

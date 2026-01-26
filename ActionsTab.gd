@@ -20,10 +20,6 @@ var roll_popup: Window = null
 
 func _ready():
 	# Connect action buttons
-	main_action1_button.pressed.connect(_on_main_action1_pressed)
-	main_action2_button.pressed.connect(_on_main_action2_pressed)
-	off_action1_button.pressed.connect(_on_off_action1_pressed)
-	off_action2_button.pressed.connect(_on_off_action2_pressed)
 
 	# Perk placeholders
 	perks_header.text = "Perk Actions (Unlocked at Rank Milestones)"
@@ -83,43 +79,6 @@ func _update_off_hand_actions(item: String):
 		off_action2_button.text = "-"
 		off_action1_button.disabled = false
 		off_action2_button.disabled = true
-
-func _on_main_action1_pressed():
-	_perform_action(current_main_hand, 1)
-
-func _on_main_action2_pressed():
-	_perform_action(current_main_hand, 2)
-
-func _on_off_action1_pressed():
-	_perform_action(current_off_hand, 1)
-
-func _on_off_action2_pressed():
-	_perform_action(current_off_hand, 2)
-
-func _perform_action(item: String, action_index: int):
-	if item == "None":
-		return
-
-	# Get parameters (adjust as needed from Data or Global)
-	var is_melee = false
-	var mcb = Global.character_data.get("mcb", 0)  # From Global
-	var max_damage = Data.WEAPONS[item].get("max_damage", 6) if Data.WEAPONS.has(item) else 4
-	var threshold = 10  # Placeholder - add SpinBox later
-	
-	if Data.WEAPONS.has(item):
-		is_melee = (Data.WEAPONS[item].get("accuracy_stat", "") == "MCA")
-
-	var roll_result = DiceRoller.roll_3d6(is_melee, mcb, max_damage, threshold)
-
-	_show_roll_popup(roll_result, item, action_index)
-
-func _show_roll_popup(result: Dictionary, item: String, action_index: int):
-	if roll_popup == null:
-		roll_popup = preload("res://RollPopup.tscn").instantiate()
-		add_child(roll_popup)
-
-	roll_popup.show_roll(item, action_index, result)
-	roll_popup.popup_centered()
 
 func _add_perk_placeholder(text: String):
 	var panel = PanelContainer.new()
