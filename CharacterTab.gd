@@ -150,6 +150,7 @@ var is_edit_mode: bool = false
 
 signal stats_updated(final_stats: Dictionary)
 signal race_origin_changed(race: String, origin: String)
+signal archetype_changed(arche1: String, arche2: String, rank: int)
 
 func get_rank() -> int:
 	return rank_option.selected + 1 if rank_option.get_item_count() > 0 else 1
@@ -219,7 +220,12 @@ func _ready():
 		origin_option.add_item(key)
 
 	update_arche_options()
-
+	if arche1_option and not arche1_option.item_selected.is_connected(_update_archetype_perks):
+		arche1_option.item_selected.connect(_update_archetype_perks)
+	if arche2_option and not arche2_option.item_selected.is_connected(_update_archetype_perks):
+		arche2_option.item_selected.connect(_update_archetype_perks)
+	if rank_option and not rank_option.item_selected.is_connected(_update_archetype_perks):
+		rank_option.item_selected.connect(_update_archetype_perks)
 	athletics_attr_choice.add_item("Agility")
 	athletics_attr_choice.add_item("Brawn")
 	athletics_attr_choice.selected = 0
@@ -254,9 +260,9 @@ func _ready():
 
 	race_option.item_selected.connect(_update_all)
 	origin_option.item_selected.connect(_update_all)
-	arche1_option.item_selected.connect(func(_idx): update_arche_options(); _update_all())
-	arche2_option.item_selected.connect(func(_idx): update_arche_options(); _update_all())
-	rank_option.item_selected.connect(_update_all)
+	arche1_option.item_selected.connect(_update_archetype_perks)
+	arche2_option.item_selected.connect(_update_archetype_perks)
+	rank_option.item_selected.connect(_update_archetype_perks)
 
 	roll_button.pressed.connect(_on_roll_attributes_pressed)
 	point_buy_button.pressed.connect(_on_point_buy_reset_pressed)
@@ -274,6 +280,7 @@ func _ready():
 
 	edit_toggle_button.pressed.connect(_toggle_edit_mode)
 	edit_toggle_button.text = "Edit Mode: Off"
+	_update_archetype_perks()
 	_toggle_edit_mode()  # Start read-only
 	_update_all()
 
@@ -741,3 +748,18 @@ func get_final_attributes() -> Dictionary:
 	}
 	
 	return finals
+func _update_archetype_perks(_index: int = -1) -> void:  # <-- accepts the arg, ignores it
+	var arche1: String = "None"
+	var arche2: String = "None"
+	var rank: int = 1
+	
+	if arche1_option and arche1_option.selected > -1:
+		arche1 = arche1_option.get_item_text(arche1_option.selected)
+	if arche2_option and arche2_option.selected > -1:
+		arche2 = arche2_option.get_item_text(arche2_option.selected)
+	if rank_option and rank_option.selected > -1:
+		var rank_text: String = rank_option.get_item_text(rank_option.selected)
+		# Adjust parsing if your rank items are "Rank 1", "1", etc.
+		rank = int(rank_text.replace("Rank ", "").strip_edges())
+	print("CharacterTab emitting archetype_changed: ", arche1, arche2, rank)
+	emit_signal("archetype_changed", arche1, arche2, rank)

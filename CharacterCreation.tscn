@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://cu1h218rtifqf"]
+[gd_scene format=3 uid="uid://cu1h218rtifqf"]
 
 [ext_resource type="Script" uid="uid://ddo8sowwnnhgf" path="res://CharacterCreation.gd" id="1"]
 
-[node name="CharacterCreation" type="Control"]
+[node name="CharacterCreation" type="Control" unique_id=254010167]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1735376948]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -23,207 +23,207 @@ theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="TabContainer" type="TabContainer" parent="MarginContainer"]
+[node name="TabContainer" type="TabContainer" parent="MarginContainer" unique_id=1299762875]
 layout_mode = 2
 current_tab = 3
 tab_focus_mode = 0
 metadata/_tab_index = 0
 
-[node name="Step1RollStats" type="VBoxContainer" parent="MarginContainer/TabContainer"]
+[node name="Step1RollStats" type="VBoxContainer" parent="MarginContainer/TabContainer" unique_id=683458988]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 0
 
-[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step1RollStats"]
+[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step1RollStats" unique_id=1834772853]
 layout_mode = 2
 text = "Step 1: Roll Stats"
 
-[node name="AttrGrid" type="GridContainer" parent="MarginContainer/TabContainer/Step1RollStats"]
+[node name="AttrGrid" type="GridContainer" parent="MarginContainer/TabContainer/Step1RollStats" unique_id=613548332]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 columns = 2
 
-[node name="AgiLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="AgiLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=1747546159]
 layout_mode = 2
 text = "Agi"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="AgiScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="AgiScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=495288917]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="AppLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="AppLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=876520137]
 layout_mode = 2
 text = "App"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="AppScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="AppScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=1229741785]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="BrawnLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="BrawnLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=894987000]
 layout_mode = 2
 text = "Brawn"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="BrawnScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="BrawnScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=1712976492]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="ConLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="ConLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=1707302391]
 layout_mode = 2
 text = "Con"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="ConScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="ConScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=1231160632]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="IntLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="IntLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=1393603141]
 layout_mode = 2
 text = "Int"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="IntScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="IntScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=252804574]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="MemLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="MemLabel" type="Label" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=1569843963]
 layout_mode = 2
 text = "Mem"
 horizontal_alignment = 1
 vertical_alignment = 2
 
-[node name="MemScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid"]
+[node name="MemScore" type="SpinBox" parent="MarginContainer/TabContainer/Step1RollStats/AttrGrid" unique_id=917310672]
 layout_mode = 2
 min_value = 1.0
 max_value = 30.0
 value = 1.0
 alignment = 1
 
-[node name="Buttons" type="HBoxContainer" parent="MarginContainer/TabContainer/Step1RollStats"]
+[node name="Buttons" type="HBoxContainer" parent="MarginContainer/TabContainer/Step1RollStats" unique_id=1318454110]
 layout_mode = 2
 
-[node name="RollButton" type="Button" parent="MarginContainer/TabContainer/Step1RollStats/Buttons"]
+[node name="RollButton" type="Button" parent="MarginContainer/TabContainer/Step1RollStats/Buttons" unique_id=1494716643]
 layout_mode = 2
 text = "Roll Stats"
 
-[node name="ResetButton" type="Button" parent="MarginContainer/TabContainer/Step1RollStats/Buttons"]
+[node name="ResetButton" type="Button" parent="MarginContainer/TabContainer/Step1RollStats/Buttons" unique_id=2064888103]
 layout_mode = 2
 text = "Reset
 "
 
-[node name="NextButton" type="Button" parent="MarginContainer/TabContainer/Step1RollStats"]
+[node name="NextButton" type="Button" parent="MarginContainer/TabContainer/Step1RollStats" unique_id=2061262729]
 layout_mode = 2
 text = "Next: Race & Origin"
 
-[node name="Step2RaceOrigin" type="VBoxContainer" parent="MarginContainer/TabContainer"]
+[node name="Step2RaceOrigin" type="VBoxContainer" parent="MarginContainer/TabContainer" unique_id=166253876]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
-[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=1881258604]
 layout_mode = 2
 text = "Step 2: Race and Origin"
 
-[node name="RaceLabel" type="Label" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="RaceLabel" type="Label" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=1627291948]
 layout_mode = 2
 text = "Race:"
 
-[node name="RaceOption" type="OptionButton" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="RaceOption" type="OptionButton" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=1685831070]
 layout_mode = 2
 
-[node name="GeneralPerkDropdown" type="OptionButton" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="GeneralPerkDropdown" type="OptionButton" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=1106786534]
 visible = false
 layout_mode = 2
 
-[node name="OriginLabel" type="Label" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="OriginLabel" type="Label" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=1185066147]
 layout_mode = 2
 text = "Origin:"
 
-[node name="OriginOption" type="OptionButton" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="OriginOption" type="OptionButton" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=173218814]
 layout_mode = 2
 
-[node name="AdvancedCheck" type="CheckBox" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="AdvancedCheck" type="CheckBox" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=1913611745]
 layout_mode = 2
 text = "Advanced: Remove Origin Restrictions"
 
-[node name="NextButton" type="Button" parent="MarginContainer/TabContainer/Step2RaceOrigin"]
+[node name="NextButton" type="Button" parent="MarginContainer/TabContainer/Step2RaceOrigin" unique_id=782173433]
 layout_mode = 2
 text = "Next: Archetypes"
 
-[node name="Step3Archetypes" type="VBoxContainer" parent="MarginContainer/TabContainer"]
+[node name="Step3Archetypes" type="VBoxContainer" parent="MarginContainer/TabContainer" unique_id=1739548447]
 visible = false
 layout_mode = 2
 metadata/_tab_index = 2
 
-[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step3Archetypes"]
+[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step3Archetypes" unique_id=211564229]
 layout_mode = 2
 text = "Step 3: Archetypes"
 
-[node name="Arche1Label" type="Label" parent="MarginContainer/TabContainer/Step3Archetypes"]
+[node name="Arche1Label" type="Label" parent="MarginContainer/TabContainer/Step3Archetypes" unique_id=1603131889]
 layout_mode = 2
 text = "Primary Archetype:"
 
-[node name="Arche1Option" type="OptionButton" parent="MarginContainer/TabContainer/Step3Archetypes"]
+[node name="Arche1Option" type="OptionButton" parent="MarginContainer/TabContainer/Step3Archetypes" unique_id=1287132681]
 layout_mode = 2
 
-[node name="Arche2Label" type="Label" parent="MarginContainer/TabContainer/Step3Archetypes"]
+[node name="Arche2Label" type="Label" parent="MarginContainer/TabContainer/Step3Archetypes" unique_id=1779166552]
 layout_mode = 2
 text = "Secondary Archetype:"
 
-[node name="Arche2Option" type="OptionButton" parent="MarginContainer/TabContainer/Step3Archetypes"]
+[node name="Arche2Option" type="OptionButton" parent="MarginContainer/TabContainer/Step3Archetypes" unique_id=1782743202]
 layout_mode = 2
 
-[node name="NextButton" type="Button" parent="MarginContainer/TabContainer/Step3Archetypes"]
+[node name="NextButton" type="Button" parent="MarginContainer/TabContainer/Step3Archetypes" unique_id=295832225]
 layout_mode = 2
 text = "Next: Review"
 
-[node name="Step4Review" type="VBoxContainer" parent="MarginContainer/TabContainer"]
+[node name="Step4Review" type="VBoxContainer" parent="MarginContainer/TabContainer" unique_id=1591682643]
 layout_mode = 2
 metadata/_tab_index = 3
 
-[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step4Review"]
+[node name="Label" type="Label" parent="MarginContainer/TabContainer/Step4Review" unique_id=441727117]
 layout_mode = 2
 text = "Step 4: Review"
 
-[node name="StatsSummary" type="Label" parent="MarginContainer/TabContainer/Step4Review"]
+[node name="StatsSummary" type="Label" parent="MarginContainer/TabContainer/Step4Review" unique_id=358595240]
 layout_mode = 2
 text = "Stats: Agi X, App X, ..."
 
-[node name="RaceOriginSummary" type="Label" parent="MarginContainer/TabContainer/Step4Review"]
+[node name="RaceOriginSummary" type="Label" parent="MarginContainer/TabContainer/Step4Review" unique_id=80810039]
 layout_mode = 2
 text = "Race: None, Origin: None, Perk: None"
 
-[node name="ArchetypesSummary" type="Label" parent="MarginContainer/TabContainer/Step4Review"]
+[node name="ArchetypesSummary" type="Label" parent="MarginContainer/TabContainer/Step4Review" unique_id=159836309]
 layout_mode = 2
 text = "Archetypes: None / None"
 
-[node name="NameInput" type="LineEdit" parent="MarginContainer/TabContainer/Step4Review"]
+[node name="NameInput" type="LineEdit" parent="MarginContainer/TabContainer/Step4Review" unique_id=671565760]
 layout_mode = 2
 placeholder_text = "Enter Name Here"
 
-[node name="ConfirmButton" type="Button" parent="MarginContainer/TabContainer/Step4Review"]
+[node name="ConfirmButton" type="Button" parent="MarginContainer/TabContainer/Step4Review" unique_id=503781045]
 layout_mode = 2
 text = "Create Character"

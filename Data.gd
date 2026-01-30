@@ -200,90 +200,6 @@ const RACE_PERKS = {
 		}
 	}
 }
-const ORIGIN_PERKS = {
-	"Ahjitar": {"Storm Bjorn": {
-		"desc": "From their years worshiping the endless storms of their Lord, 
-		the User has built up an innate Tolerance to Lightning and even the ability to wield it. 
-		The User has the ability to use Whip, as long as the element type is Lightning."
-		}
-	},
-	"Aural": {"Gilded": {
-		"desc": ""
-		}
-	},
-	"Bardendorf": {"Rythmic": {
-		 "desc": ""
-		}
-	},
-	"Court of Faebles": {"Servant of Fate": {
-		"desc": ""
-		}
-	},
-	"Diebshol": {"Rebellious": {
-		"desc": ""
-		}
-	},
-	"Elfenstadt": {"Grounded": {
-		"desc": ""
-		}
-	},
-	"Festa Vale" : {"Brewmastery": {
-		"desc": "The Festa Valen are widely known for their unique alcoholic brews. The User becomes a Journeyman in Craft - Brewing"
-		}
-	},
-	"Finala": {"Nightbound": {
-		"desc": ""
-		}
-	},
-	"Grimm Wilds" : {"Fate Woven": {
-		"desc": ""
-		}
-	},
-	"Habinsel": {"Sea Legs": {
-		"desc": "Many years at sea has weather the User into a capable member on any oceanic vessel. 
-		When aboard a naval vessel, the User will not have to make Balance Saves under normal 
-		conditions and will have +5 to Balance Saves if the vessel is struck."
-		}
-	},
-	"Hammerheim": {"Homing Hammers": {
-		"desc": ""
-		}
-	},
-	"Muthir" : {"Bloodlust": {
-		"desc": "The Follower of Muthir, The Mad King, are fueled a unending desire for bloodshed and violence. The User 
-		when receiving or dealing a Bleeding Wound, the User gains a +1 to their Melee Combat Bonus for each instance, 
-		up to a maximum of 5, until either the wound is treated or combat ends. The User also can Self-Cast Madness as 
-		long as they have taken physical damage during the combat encounter"
-		}
-	},
-	"Red River": {"Old Ways": {
-		"desc": ""
-		}
-	},
-	"Rumläufer" : {"Drunk Tank": {
-		"desc": ""
-		}
-	},
-	"Sahra's Blessing": {"Blessed": {
-		"desc": ""
-		}
-	},
-	"Svartberg" : {"Deep Below": {
-		"desc": "Life without sun has adapted the Dwarves of Svartberg to have incredible sight in pure darkness. 
-		The User can see as if in low-light when they are in Natural Darkness up to 40 meters and treats low-light 
-		as if it is well-lit."
-		}
-	},
-	"Symvoúlio": {"Well Red": {
-		"desc": ""
-		}
-	},
-	"Warteruhe": {"Artisan": {
-		"desc": "In the City of Trade, Every Citizen makes their way by selling their labor. 
-		The User may select any Craft and increase it to Expert."
-		},
-	}
-}
 const GENERAL_PERKS = { 
 	#syntax
 	##"name": {
@@ -664,25 +580,36 @@ const GENERAL_PERKS = {
 	},
 }
 const ORIGIN_DATA = {
-	"Ahjitar": {"perk": "Storm Bjorn"},
-	"Aural": {"perk": "Gilded"},
-	"Bardendorf": {"perk": "Rythmic"},
+	"Ahjitar": {"perk": "Storm Bjorn","desc": "From their years worshiping the endless storms of their Lord, 
+		the User has built up an innate Tolerance to Lightning and even the ability to wield it. 
+		The User has the ability to use Whip, as long as the element type is Lightning."},
+	"Aural": {"perk": "Gilded","desc": ""},
+	"Bardendorf": {"perk": "Rythmic","desc": ""},
 	"Court of Faebles": {"perk": "Servant of Fate"},
-	"Diebshol": {"perk": "Rebellious"},
-	"Elfenstadt": {"perk": "Grounded"},
-	"Festa Vale": {"perk": "Brewmastery"},
-	"Finala": {"perk": "Nightbound"},
-	"Grimm Wilds": {"perk": "Fate Woven"},
-	"Habinsel": {"perk": "Sea Legs"},
-	"Hammerheim": {"perk": "Homing Hammers"},
-	"Muthir": {"perk": "Bloodlust"},
-	"Red River": {"perk": "Old Ways"},
-	"Rumläufer": {"perk": "Drunk Tank"},
-	"Sahra's Blessing": {"perk": "Blessed"},
-	"Svartberg": {"perk": "Deep Below"},
-	"Symvoúlio": {"perk": "Well Red"},
-	"Warteruhe": {"perk": "Artisan"},
-	#etc.
+	"Diebshol": {"perk": "Rebellious","desc": ""},
+	"Elfenstadt": {"perk": "Grounded","desc": ""},
+	"Festa Vale": {"perk": "Brewmastery","desc": "The Festa Valen are widely known for their unique alcoholic brews. 
+	The User becomes a Journeyman in Craft - Brewing"},
+	"Finala": {"perk": "Nightbound","desc": ""},
+	"Grimm Wilds": {"perk": "Fate Woven","desc": ""},
+	"Habinsel": {"perk": "Sea Legs","desc": "Many years at sea has weather the User into a capable member on any oceanic vessel. 
+		When aboard a naval vessel, the User will not have to make Balance Saves under normal 
+		conditions and will have +5 to Balance Saves if the vessel is struck."},
+	"Hammerheim": {"perk": "Homing Hammers","desc": ""},
+	"Muthir": {"perk": "Bloodlust","desc": "The Follower of Muthir, The Mad King, are fueled a unending desire for bloodshed and violence. The User 
+		when receiving or dealing a Bleeding Wound, the User gains a +1 to their Melee Combat Bonus for each instance, 
+		up to a maximum of 5, until either the wound is treated or combat ends. The User also can Self-Cast Madness as 
+		long as they have taken physical damage during the combat encounter"},
+	"Red River": {"perk": "Old Ways","desc": ""},
+	"Rumläufer": {"perk": "Drunk Tank","desc": ""},
+	"Sahra's Blessing": {"perk": "Blessed","desc": ""},
+	"Svartberg": {"perk": "Deep Below","desc": "Life without sun has adapted the Dwarves of Svartberg to have incredible sight in pure darkness. 
+		The User can see as if in low-light when they are in Natural Darkness up to 40 meters and treats low-light 
+		as if it is well-lit."},
+	"Symvoúlio": {"perk": "Well Red","desc": ""},
+	"Warteruhe": {"perk": "Artisan","desc": "In the City of Trade, Every Citizen makes their way by selling their labor. 
+		The User may select any Craft and increase it to Expert."},
+	"none": {"perk": "No Origin Perk", "desc": "No Origin Perk Selected"},
 }
 const ARCHETYPE_PERKS = {
 	#Syntax

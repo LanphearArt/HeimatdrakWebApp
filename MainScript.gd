@@ -17,7 +17,9 @@ func _ready() -> void:
 		Global.clear_creation_data()
 	
 	character_tab.race_origin_changed.connect(perks_tab.update_header_perks)
-	
+	character_tab.archetype_changed.connect(perks_tab.update_archetype_perks)
+	# Initial call in case of defaults
+	perks_tab.update_archetype_perks("None", "None", 1)
 	gear_tab.equipped_changed.connect(func(main: String, off: String):
 		actions_tab.current_main_hand = main
 		actions_tab.current_off_hand = off
@@ -30,6 +32,12 @@ func _ready() -> void:
 	
 	save_button.pressed.connect(_save_all)
 	load_button.pressed.connect(_load_all)
+	
+	character_tab.archetype_changed.connect(perks_tab.update_archetype_perks)
+	var current_arche1 = "None"
+	var current_arche2 = "None"
+	var current_rank = 1
+	perks_tab.update_archetype_perks(current_arche1, current_arche2, current_rank)
 
 func _save_all() -> void:
 	var character_data = character_tab.get_save_data()
